@@ -2,7 +2,10 @@
   "name": "ui5lab-input",
   "version": "0.1.1",
   "description": "UI5 lab input controls",
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kvsrikanthj/ui5-library-Signature.git"
+  },
   "license": "Apache-2.0",
   "private": false,
   "scripts": {
