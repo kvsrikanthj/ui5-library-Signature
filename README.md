@@ -40,7 +40,7 @@ new ui5.sign.Signature(sId?, mSettings?)
 | [getBackgroundColor](#getBackgroundColor) | Gets current value of property `backgroundColor`                                                                                                   |
 | [getEditable](#getEditable)               | Gets current value of property `editable`                                                                                                          |
 | [getHeight](#getHeight)                   | Gets current value of property `height`                                                                                                            |
-| [getPenColor](getPenColor)                | Gets current value of property `penColor`                                                                                                          |
+| [getPenColor](#getPenColor)               | Gets current value of property `penColor`                                                                                                          |
 | [getPenSize](#getPenSize)                 | Gets current value of property `penSize`                                                                                                           |
 | [getSVGString](#getSVGString)             | Returns SVG as string                                                                                                                              |
 | [getWidth](#getWidth)                     | Gets current value of property `width`                                                                                                             |
@@ -56,7 +56,7 @@ new ui5.sign.Signature(sId?, mSettings?)
 
 Clears SVG content of the control.
 <br/>
-Visibility: <span style="color:green">public</span>
+Visibility: <span style="color:green">_public_</span>
 
 ```js
 clear() : ui5.sign.Signature
@@ -72,7 +72,7 @@ Gets current value of property `backgroundColor`
 <br/>
 Defines background color of control
 <br/>
-Visibility: <span style="color:green">public</span>
+Visibility: <span style="color:green">_public_</span>
 
 ```js
 getBackgroundColor() : sap.ui.core.CSSColor
@@ -88,7 +88,7 @@ Gets current value of property `editable`
 <br/>
 Defines whether the control can be modified by the user or not
 <br/>
-Visibility: <span style="color:green">public</span>
+Visibility: <span style="color:green">_public_</span>
 
 ```js
 getEditable() : boolean
@@ -104,7 +104,7 @@ Gets current value of property `height`
 <br/>
 Defines height of control
 <br/>
-Visibility: <span style="color:green">public</span>
+Visibility: <span style="color:green">_public_</span>
 
 ```js
 getHeight() : sap.ui.core.CSSSize
@@ -120,7 +120,7 @@ Gets current value of property `penColor`
 <br/>
 Defines pen color of control used to draw signature
 <br/>
-Visibility: <span style="color:green">public</span>
+Visibility: <span style="color:green">_public_</span>
 
 ```js
 getPenColor() : sap.ui.core.CSSColor
@@ -136,7 +136,7 @@ Gets current value of property `penSize`
 <br/>
 Defines pen size of control
 <br/>
-Visibility: <span style="color:green">public</span>
+Visibility: <span style="color:green">_public_</span>
 
 ```js
 getPenSize() : sap.ui.core.CSSSize
@@ -150,7 +150,7 @@ getPenSize() : sap.ui.core.CSSSize
 
 Gets SVG content of the control as string
 <br/>
-Visibility: <span style="color:green">public</span>
+Visibility: <span style="color:green">_public_</span>
 
 ```js
 getSVGString() : string
@@ -166,7 +166,7 @@ Gets current value of property `width`
 <br/>
 Defines width of control
 <br/>
-Visibility: <span style="color:green">public</span>
+Visibility: <span style="color:green">_public_</span>
 
 ```js
 getWidth() : sap.ui.core.CSSSize
@@ -180,7 +180,7 @@ getWidth() : sap.ui.core.CSSSize
 
 Sets new value for property `backgroundColor`
 <br/>
-Visibility: <span style="color:green">public</span>
+Visibility: <span style="color:green">_public_</span>
 
 ```js
 setBackgroundColor(sColor) : ui5.sign.Signature
@@ -190,8 +190,6 @@ setBackgroundColor(sColor) : ui5.sign.Signature
 | ------ | ----------------------------------------------------------------------------------- | ---------------------------------------- |
 | sColor | [sap.ui.core.CSSColor](https://sapui5.hana.ondemand.com/#/api/sap.ui.core.CSSColor) | New value for property `backgroundColor` |
 
-<br/>
-
 | Returns                         | Description                                           |
 | ------------------------------- | ----------------------------------------------------- |
 | [ui5.sign.Signature](#overview) | Reference to `this` in order to allow method chaining |
@@ -200,7 +198,7 @@ setBackgroundColor(sColor) : ui5.sign.Signature
 
 Sets new value for property `editable`
 <br/>
-Visibility: <span style="color:green">public</span>
+Visibility: <span style="color:green">_public_</span>
 
 ```js
 setEditable(bEditable) : ui5.sign.Signature
@@ -210,8 +208,6 @@ setEditable(bEditable) : ui5.sign.Signature
 | --------- | ------- | --------------------------------- |
 | bEditable | boolean | New value for property `editable` |
 
-<br/>
-
 | Returns                         | Description                                           |
 | ------------------------------- | ----------------------------------------------------- |
 | [ui5.sign.Signature](#overview) | Reference to `this` in order to allow method chaining |
@@ -220,7 +216,7 @@ setEditable(bEditable) : ui5.sign.Signature
 
 Sets new value for property `height`
 <br/>
-Visibility: <span style="color:green">public</span>
+Visibility: <span style="color:green">_public_</span>
 
 ```js
 setHeight(sHeight) : sap.ui.core.CSSSize
@@ -230,8 +226,6 @@ setHeight(sHeight) : sap.ui.core.CSSSize
 | ------- | --------------------------------------------------------------------------------- | ------------------------------- |
 | sHeight | [sap.ui.core.CSSSize](https://sapui5.hana.ondemand.com/#/api/sap.ui.core.CSSSize) | New value for property `height` |
 
-<br/>
-
 | Returns                         | Description                                           |
 | ------------------------------- | ----------------------------------------------------- |
 | [ui5.sign.Signature](#overview) | Reference to `this` in order to allow method chaining |
@@ -240,7 +234,7 @@ setHeight(sHeight) : sap.ui.core.CSSSize
 
 Sets new value for property `penColor`
 <br/>
-Visibility: <span style="color:green">public</span>
+Visibility: <span style="color:green">_public_</span>
 
 ```js
 setPenColor(sColor) : ui5.sign.Signature
@@ -249,8 +243,6 @@ setPenColor(sColor) : ui5.sign.Signature
 | Param  | Type                                                                                | Description                       |
 | ------ | ----------------------------------------------------------------------------------- | --------------------------------- |
 | sColor | [sap.ui.core.CSSColor](https://sapui5.hana.ondemand.com/#/api/sap.ui.core.CSSColor) | New value for property `penColor` |
-
-<br/>
 
 | Returns                         | Description                                           |
 | ------------------------------- | ----------------------------------------------------- |
@@ -262,7 +254,7 @@ Sets new value for property `penSize`
 <br/>
 Throws error if set value is less than 1
 <br/>
-Visibility: <span style="color:green">public</span>
+Visibility: <span style="color:green">_public_</span>
 
 ```js
 setPenSize(nSize) : int
@@ -272,8 +264,6 @@ setPenSize(nSize) : int
 | ----- | ---- | -------------------------------- |
 | nSize | int  | New value for property `penSize` |
 
-<br/>
-
 | Returns                         | Description                                           |
 | ------------------------------- | ----------------------------------------------------- |
 | [ui5.sign.Signature](#overview) | Reference to `this` in order to allow method chaining |
@@ -282,7 +272,7 @@ setPenSize(nSize) : int
 
 Provided SVG string input is rendered onto the screen <br/> Also set's property `editable` to false which makes the control not editable for input
 <br/>
-Visibility: <span style="color:green">public</span>
+Visibility: <span style="color:green">_public_</span>
 
 ```js
 setSVGString(sSVGString) : ui5.sign.Signature
@@ -292,8 +282,6 @@ setSVGString(sSVGString) : ui5.sign.Signature
 | ---------- | ------ | ------------- |
 | sSVGString | string | SVG as string |
 
-<br/>
-
 | Returns                         | Description                                           |
 | ------------------------------- | ----------------------------------------------------- |
 | [ui5.sign.Signature](#overview) | Reference to `this` in order to allow method chaining |
@@ -302,7 +290,7 @@ setSVGString(sSVGString) : ui5.sign.Signature
 
 Sets new value for property `width`
 <br/>
-Visibility: <span style="color:green">public</span>
+Visibility: <span style="color:green">_public_</span>
 
 ```js
 setWidth(sWidth) : ui5.sign.Signature
@@ -311,8 +299,6 @@ setWidth(sWidth) : ui5.sign.Signature
 | Param  | Type                                                                              | Description                    |
 | ------ | --------------------------------------------------------------------------------- | ------------------------------ |
 | sWidth | [sap.ui.core.CSSSize](https://sapui5.hana.ondemand.com/#/api/sap.ui.core.CSSSize) | New value for property `width` |
-
-<br/>
 
 | Returns                         | Description                                           |
 | ------------------------------- | ----------------------------------------------------- |
