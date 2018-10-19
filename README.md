@@ -37,20 +37,20 @@ new ui5.sign.Signature(sId?, mSettings?)
 | Method                                    | Description                                                                                                                                        |
 | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [clear](#clear)                           | Clears SVG content of the control                                                                                                                  |
-| [getBackgroundColor](#getBackgroundColor) | Gets current value of property `backgroundColor`                                                                                                   |
-| [getEditable](#getEditable)               | Gets current value of property `editable`                                                                                                          |
-| [getHeight](#getHeight)                   | Gets current value of property `height`                                                                                                            |
-| [getPenColor](#getPenColor)               | Gets current value of property `penColor`                                                                                                          |
+| [getBackgroundColor](#getbackgroundcolor) | Gets current value of property `backgroundColor`                                                                                                   |
+| [getEditable](#geteditable)               | Gets current value of property `editable`                                                                                                          |
+| [getHeight](#getheight)                   | Gets current value of property `height`                                                                                                            |
+| [getPenColor](#getpencolor)               | Gets current value of property `penColor`                                                                                                          |
 | [getPenSize](#getPenSize)                 | Gets current value of property `penSize`                                                                                                           |
-| [getSVGString](#getSVGString)             | Returns SVG as string                                                                                                                              |
-| [getWidth](#getWidth)                     | Gets current value of property `width`                                                                                                             |
-| [setBackgroundColor](#setBackgroundColor) | Sets new value for property `backgroundColor`                                                                                                      |
-| [setEditable](#setEditable)               | Sets new value for property `editable`                                                                                                             |
-| [setHeight](#setHeight)                   | Sets new value for property `height`                                                                                                               |
-| [setPenColor](#setPenColor)               | Sets new value for property `penColor`                                                                                                             |
-| [setPenSize](#setPenSize)                 | Sets new value for property `penSize`                                                                                                              |
-| [setSVGString](#setSVGString)             | Provided SVG string input is rendered onto the screen <br/> Also set's property `editable` to false which makes the control not editable for input |
-| [setWidth](#setWidth)                     | Sets new value for property `width`                                                                                                                |
+| [getSVGString](#getsvgstring)             | Returns SVG as string                                                                                                                              |
+| [getWidth](#getwidth)                     | Gets current value of property `width`                                                                                                             |
+| [setBackgroundColor](#setbackgroundcolor) | Sets new value for property `backgroundColor`                                                                                                      |
+| [setEditable](#seteditable)               | Sets new value for property `editable`                                                                                                             |
+| [setHeight](#setheight)                   | Sets new value for property `height`                                                                                                               |
+| [setPenColor](#setpencolor)               | Sets new value for property `penColor`                                                                                                             |
+| [setPenSize](#setpensize)                 | Sets new value for property `penSize`                                                                                                              |
+| [setSVGString](#setsvgstring)             | Provided SVG string input is rendered onto the screen <br/> Also set's property `editable` to false which makes the control not editable for input |
+| [setWidth](#setwidth)                     | Sets new value for property `width`                                                                                                                |
 
 ### clear
 
